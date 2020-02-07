@@ -2,7 +2,8 @@
   "name": "c8",
   "version": "7.0.1",
   "description": "output coverage reports using Node.js' built in coverage",
-  "main": "index.js",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "bin": "./bin/c8.js",
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
   "dependencies": {
     "@bcoe/v8-coverage": "^0.2.3",
     "@istanbuljs/schema": "^0.1.2",
+    "@types/istanbul-lib-report": "^3.0.0",
     "find-up": "^4.0.0",
     "foreground-child": "^2.0.0",
     "furi": "^2.0.0",
